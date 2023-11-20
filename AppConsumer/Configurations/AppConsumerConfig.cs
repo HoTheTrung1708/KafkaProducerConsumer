@@ -1,10 +1,6 @@
-﻿using Confluent.Kafka;
-
-namespace AppConsumer.Configurations
+﻿namespace AppConsumer.Configurations
 {
     public class AppConsumerConfig
-
-        //Buoc 1 config
     {
         public string          BootstrapServers           { get; set; }
         public string          GroupId                    { get; set; }

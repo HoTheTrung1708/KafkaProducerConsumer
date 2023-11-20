@@ -1,5 +1,4 @@
-﻿using Confluent.Kafka;
-namespace ProducerApp.Configurations
+﻿namespace ProducerApp.Configurations
 {
     public class AppProducerConfig
     {//B1 

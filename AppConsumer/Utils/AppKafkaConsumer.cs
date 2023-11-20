@@ -1,13 +1,4 @@
-﻿using AppConsumer.Configurations;
-using Confluent.Kafka;
-using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AppConsumer.Utils
+﻿namespace AppConsumer.Utils
 {
     public class AppKafkaConsumer
     {//Viết hàm 

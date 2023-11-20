@@ -1,13 +1,4 @@
-﻿using Confluent.Kafka;
-using Microsoft.Extensions.Options;
-using ProducerApp.Configurations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProducerApp.Utils
+﻿namespace ProducerApp.Utils
 {
     public class AppProducer
     {

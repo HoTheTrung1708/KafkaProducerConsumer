@@ -1,5 +1,4 @@
 using AppConsumer;
-using AppConsumer.Configurations;
 using AppConsumer.Utils;
 
 IHost host = Host.CreateDefaultBuilder(args)

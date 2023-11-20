@@ -20,7 +20,7 @@ namespace ProducerApp
             {
                 _appProducer.Produce(++_counter, Guid.NewGuid().ToString());
                 _logger.LogInformation($"Produced message {_counter}");
-                await Task.Delay(3000, stoppingToken);
+                await Task.Delay(1000, stoppingToken);
             }
         }
     }
